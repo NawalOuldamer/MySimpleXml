@@ -7,7 +7,9 @@ package dcll.noul.mysimplexml;
 public class App 
 {
     public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    {       
+    System.out.println("deb main");
+    Parseur xmlparser = new Parseur();
+    xmlparser.parser(args[0]);
     }
 }
