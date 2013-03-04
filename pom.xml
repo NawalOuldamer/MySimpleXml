@@ -20,8 +20,44 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>   
-  </dependencies>
+    </dependency>  
+	
+<!-- jcr  -->
+<!-- 	<dependency>
+	    <groupId>javax.jcr</groupId>
+	    <artifactId>jcr</artifactId>
+	    <version>2.0</version>
+	</dependency> -->
+
+<!-- pmd  -->
+<!-- 	<dependency>
+	    <groupId>pmd</groupId>
+	    <artifactId>pmd</artifactId>
+	    <version>4.3</version>
+	</dependency>
+	
+ --><!-- 	<dependency>
+	    <groupId>maven</groupId>
+	    <artifactId>maven-pmd-plugin</artifactId>
+	    <version>1.10</version>
+	</dependency>
+ -->
+ 
+<!-- checkstyle --> 
+<!-- 	 <dependency>
+	    <groupId>checkstyle</groupId>
+	    <artifactId>checkstyle</artifactId>
+	    <version>5.0</version>
+	</dependency>
+
+ --><!-- 	 <dependency>
+	    <groupId>maven</groupId>
+	    <artifactId>maven-checkstyle-plugin</artifactId>
+	    <version>3.0.1</version>
+	</dependency>
+ -->
+ 	
+</dependencies>
   
   <build>
 	<plugins>
@@ -52,6 +88,30 @@
 	</plugins>	
 </build>
   
+  
+  <!-- 
+    <build>
+  		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jxr-plugin</artifactId>
+				<version>2.3</version>				
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.0</version>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-checkstyle-plugin</artifactId>
+				<version>2.9.1</version>
+			</plugin>
+		
+		</plugins>
+  </build> -->
   
   
 </project>
